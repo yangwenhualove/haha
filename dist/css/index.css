@@ -1,0 +1,17 @@
+@charset "UTF-8";
+div {
+  width: 200px;
+  background: white;
+  height: 400px; }
+
+body {
+  /*这是注释文件*/
+  background: pink;
+  /*我是符合规范的注释*/ }
+
+#contnet {
+  background: red; }
+  #contnet .artical {
+    background: pink; }
+    #contnet .artical p {
+      color: white; }

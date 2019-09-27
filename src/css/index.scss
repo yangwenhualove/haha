@@ -1,0 +1,19 @@
+@import './a.scss';
+
+body{
+	/*这是注释文件*/
+	background:/*这是注释文件*/pink;
+	/*我是符合规范的注释*/
+	//注释:编译成css文件后,该注释不存在,这种注释叫做静默注释
+}
+
+//嵌套语法
+#contnet{
+	background:red;
+	.artical{
+		background:pink;
+		p{
+			color:white;
+		}
+	}
+}
